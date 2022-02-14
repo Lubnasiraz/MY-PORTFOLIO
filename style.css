@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(241, 190, 229, 0.8);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    color: antiquewhite;
+    
+}
+#logo h1{
+    flex-grow: 4;
+    border-style:2px groove black;
+    color: black;
+    
+
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    text-decoration:none;
+    color:rgb(10, 7, 8);
+    
+    justify-content: space-evenly;
+}
+#content a{
+    text-decoration: none;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+span{
+    color: rgb(157, 53, 167);
+}
+
+#btn{
+    flex-grow: 1;
+    
+}
+#cta{
+    flex-grow: 1;
+    background-color: palevioletred;
+    color:black;
+    border-radius: 15px;
+    border: 2px solid palevioletred;
+    height: 5vh;
+    width:10vw;
+}
+#hero{
+    margin-top: 10%;
+    display: flex;
+    
+}
+#girl img{
+    height: 55vh;
+    width:25vw;
+    border-radius: 20%;
+}
+#herocont{
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 6%;
+}
+#girl{
+    flex-grow: 8;
+}
+#cv{
+    margin-top: 10%;
+    border: 2px solid black;
+    color:black;
+    background-color: palevioletred;
+    height: 5vh;
+    width: 10vw;
+}
+#cv:hover{
+    background-color: black;
+    color: palevioletred;
+}
+#para{
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    background-color:rgb(37, 35, 35);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+ footer .social a{
+    margin-right: 2rem;
+}
+ footer .social img {
+    height: 30px;
+    width:30px;
+    margin-bottom:2rem
+}
+ footer .copyright{
+    color:rgb(233, 143, 233);}
